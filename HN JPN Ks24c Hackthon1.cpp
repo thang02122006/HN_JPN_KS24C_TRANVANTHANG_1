@@ -66,6 +66,7 @@ int main(){
 				arr[i]=arr[i-1];
 				rows++;
 				}
+			        break;
 			case 7:
 				for(int i=0 ; i<rows ; i++){
 					int bien=arr[i];
@@ -80,6 +81,7 @@ int main(){
 				for(int i=0 ; i<rows ; i++){
 					printf("%d\t",arr[i]);
 				}
+			        break;
 	    	case 10:
 			printf("dao nguoc thu tu cac phan tu trong mang la:");
 			for(int i=rows-1 ; i>=0 ; i--){
